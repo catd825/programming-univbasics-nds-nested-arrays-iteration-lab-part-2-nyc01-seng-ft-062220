@@ -1,7 +1,7 @@
 def find_min_in_nested_arrays(src)
   # src will be an array of arrays of integers
   # Produce a new Array that contains the smallest number of each of the nested arrays
-  
+
   outer_results=[] #create new array to push method into
   row_index=0 #establish starting point
   while row_index < src.count do #while the current index is less than the length of the whole array
